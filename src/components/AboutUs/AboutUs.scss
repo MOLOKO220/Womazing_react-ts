@@ -1,0 +1,86 @@
+.AboutUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  > h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 100%;
+    margin: 30px 0 40px 0;
+  }
+  .AboutUs__wrapp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+    &:nth-child(3) {
+      margin-top: 40px;
+    }
+    > div {
+      width: 560px;
+      min-height: 350px;
+      margin-left: 50px;
+      @media (max-width: 900px) {
+        margin: 30px 0;
+        width: 100vw;
+        padding: 10px;
+      }
+      > h6 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        margin-bottom: 20px;
+      }
+      > p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        margin: 10px 0;
+      }
+    }
+    img {
+      width: 400px;
+      @media (max-width: 425px) {
+        width: 350px;
+      }
+      @media (max-width: 373px) {
+        width: 300px;
+      }
+    }
+  }
+  button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    width: 260px;
+    height: 68px;
+    background: #6e9c9f;
+    transition: 300ms;
+    margin: 50px 0;
+    &:hover {
+      background: #509498;
+    }
+  }
+}

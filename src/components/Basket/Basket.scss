@@ -1,0 +1,203 @@
+.Basket {
+  margin-top: 90px;
+  padding: 15px;
+
+  h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 100px;
+  }
+  .Basket__main {
+    > div {
+      height: 80px;
+      width: 100%;
+      border-bottom: 1px solid #cccccc;
+      display: flex;
+      > div {
+        display: flex;
+        align-items: center;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        padding-left: 5px;
+        @media (max-width: 640px) {
+          font-size: 16px;
+          padding-left: 0px;
+        }
+        @media (max-width: 540px) {
+          justify-content: center;
+        }
+        &:nth-child(1) {
+          width: 50%;
+          @media (max-width: 530px) {
+            width: 30%;
+          }
+        }
+        &:nth-child(2) {
+          width: 15%;
+          @media (max-width: 530px) {
+            width: 20%;
+          }
+        }
+        &:nth-child(3) {
+          width: 20%;
+          @media (max-width: 530px) {
+            width: 30%;
+          }
+        }
+        &:nth-child(4) {
+          width: 15%;
+          @media (max-width: 530px) {
+            width: 20%;
+          }
+        }
+      }
+    }
+    li {
+      height: 220px;
+      display: flex;
+      align-items: center;
+      > div {
+        padding-left: 5px;
+        @media (max-width: 530px) {
+          padding-left: 0px;
+        }
+      }
+      .first-section {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        .closeBtn {
+          height: 12px;
+          width: 12px;
+          cursor: pointer;
+          @media (max-width: 640px) {
+            margin-left: 0px;
+          }
+          @media (max-width: 530px) {
+            margin-right: 5px;
+          }
+        }
+        .img {
+          width: 100px;
+          margin: 20px;
+          @media (max-width: 640px) {
+            margin: 5px;
+          }
+          @media (max-width: 530px) {
+            display: none;
+          }
+        }
+        h6 {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 140%;
+          letter-spacing: 0.02em;
+          color: #000000;
+          @media (max-width: 480px) {
+            font-size: 14px;
+            margin-right: 5px;
+          }
+        }
+      }
+      .second-section {
+        width: 15%;
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
+      }
+      .third-section {
+        display: flex;
+        width: 20%;
+        @media (max-width: 530px) {
+          width: 41px;
+          margin-right: 5px;
+        }
+        > div {
+          height: 41px;
+          width: 41px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 140%;
+          letter-spacing: 0.02em;
+          color: #000000;
+          border: solid 1px black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .four-section {
+        width: 15%;
+        display: flex;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
+      }
+    }
+  }
+  .Basket__footer {
+    margin-top: 50px;
+    height: 68px;
+    display: flex;
+    justify-content: flex-end;
+    > div {
+      width: 287px;
+      height: 100%;
+      background: #f1eadc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+    > a {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 138.9%;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+      background: #6e9c9f;
+      width: 236px;
+      height: 100%;
+      transition: 300ms;
+      margin: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        background: #509498;
+      }
+    }
+  }
+}

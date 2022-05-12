@@ -1,0 +1,116 @@
+.Footer {
+  width: 100vw;
+  min-height: 363px;
+  background: #f1eadc;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  .Footer__wrapp {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    @media (max-width: 495px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    > div {
+      min-height: 158px;
+      &:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media (max-width: 495px) {
+          width: 250px;
+        }
+        p {
+          min-width: 204px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 140%;
+          letter-spacing: 0.02em;
+          color: #000000;
+        }
+      }
+      &:nth-child(3) {
+        width: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        @media (max-width: 495px) {
+          width: 250px;
+          align-items: flex-start;
+        }
+
+        p {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 140%;
+          letter-spacing: 0.02em;
+          color: #000000;
+        }
+        > div {
+          img {
+            height: 22px;
+            width: 22px;
+            margin-left: 10px;
+            @media (max-width: 495px) {
+              margin-left: 0px;
+              margin-right: 10px;
+            }
+          }
+        }
+        > img {
+          height: 22px;
+          width: 68px;
+        }
+      }
+    }
+    nav {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      @media (max-width: 800px) {
+        flex-direction: column;
+        margin-left: 10px;
+      }
+      @media (max-width: 495px) {
+        width: 250px;
+        margin: 15px 0 15px 0;
+      }
+      a {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        transition: 300ms;
+        &:hover {
+          color: #6e9c9f;
+        }
+      }
+      .navActive {
+        font-weight: 700;
+        color: #6e9c9f;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+        margin-top: 27px;
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+.Header {
+  height: 120px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 90vw;
+  position: relative;
+  z-index: 10;
+  nav {
+    height: 25px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 800px) {
+      display: none !important;
+    }
+    a {
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #000000;
+      transition: 300ms;
+      &:hover {
+        color: #6e9c9f;
+        transform: scale(1.1);
+      }
+    }
+    .navActive {
+      font-weight: 700;
+      color: #6e9c9f;
+    }
+  }
+  .phone {
+    display: flex;
+    @media (max-width: 440px) {
+      display: none;
+    }
+    img {
+      height: 20px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  }
+  .BurgerBtn {
+    display: none;
+    cursor: pointer;
+    @media (max-width: 800px) {
+      display: block;
+    }
+  }
+}
+.burgerMenu {
+  height: 100vh;
+  width: 250px;
+  background: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 45px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  left: -260px;
+  transition: 300ms;
+  z-index: 11;
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+    a {
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #000000;
+      transition: 300ms;
+      margin: 5px;
+      &:hover {
+        color: #6e9c9f;
+        transform: scale(1.1);
+      }
+    }
+    .navActive {
+      font-weight: 700;
+      color: #6e9c9f;
+    }
+  }
+  .phone {
+    display: flex;
+    img {
+      height: 20px;
+      margin: 0 10px 0 0;
+      cursor: pointer;
+    }
+  }
+  .closeBtn {
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: 20px;
+    cursor: pointer;
+  }
+}
+.burgerMenu_activ {
+  left: 0px !important;
+}
+.popup {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(110, 156, 159, 0.95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 12;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    max-width: 491px;
+    width: 100vw;
+    height: 501px;
+    position: relative;
+    h5 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #000000;
+      @media (max-width: 420px) {
+        font-size: 23px;
+      }
+      @media (max-width: 360px) {
+        font-size: 20px;
+      }
+    }
+    input {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      height: 56px;
+      max-width: 350px;
+      width: 80vw;
+      border-bottom: solid 1px black;
+      margin-top: 19px;
+
+      &::placeholder {
+        color: #868686;
+      }
+    }
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 350px;
+      width: 80vw;
+      height: 68px;
+      background: #6e9c9f;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 138.9%;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+      margin-top: 35px;
+    }
+    .closeBtn {
+      position: absolute;
+      height: 20px;
+      top: 32px;
+      right: 32px;
+      font-size: 30px;
+      font-weight: 20px;
+      cursor: pointer;
+    }
+  }
+  .popup-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    width: 100vw;
+    height: 278px;
+    background: #ffffff;
+    h5 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+    button {
+      width: 180px;
+      height: 70px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 138.9%;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #6e9c9f;
+      border: solid #6e9c9f 1px;
+      background: none;
+      margin-top: 30px;
+    }
+  }
+}
+.display__none {
+  display: none !important;
+}
