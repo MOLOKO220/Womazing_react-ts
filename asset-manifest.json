@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Womazing_react-ts/static/css/main.f31af8d1.css",
+    "main.js": "/Womazing_react-ts/static/js/main.ac6fc204.js",
+    "static/js/787.698e746e.chunk.js": "/Womazing_react-ts/static/js/787.698e746e.chunk.js",
+    "static/media/FoSeSlide2.png": "/Womazing_react-ts/static/media/FoSeSlide2.8a40f914491ab89996dc.png",
+    "static/media/FoSeSlide1.png": "/Womazing_react-ts/static/media/FoSeSlide1.e7c0b961579bf329da12.png",
+    "static/media/first.png": "/Womazing_react-ts/static/media/first.f0bbca064ab466d600b5.png",
+    "static/media/FoSeSlide3.png": "/Womazing_react-ts/static/media/FoSeSlide3.8d7334390f9852011c63.png",
+    "static/media/FSsecand.png": "/Womazing_react-ts/static/media/FSsecand.a093a03d3c7822993f88.png",
+    "static/media/second.png": "/Womazing_react-ts/static/media/second.e5e4dbe219a76a0beb5f.png",
+    "static/media/range1.png": "/Womazing_react-ts/static/media/range1.80c58828b2b19caf2425.png",
+    "static/media/range2.png": "/Womazing_react-ts/static/media/range2.b0a3d841824d3c3fcee8.png",
+    "static/media/range3.png": "/Womazing_react-ts/static/media/range3.74ab5e8b5cfc24aab032.png",
+    "static/media/FSthird.svg": "/Womazing_react-ts/static/media/FSthird.a74398f196ea58327a7b55aeac3689b5.svg",
+    "static/media/FSfirst.png": "/Womazing_react-ts/static/media/FSfirst.41ac794f16c234704fa4.png",
+    "static/media/Logo.svg": "/Womazing_react-ts/static/media/Logo.a8e64ddb0a1f5ed6ba3ca31772cb4171.svg",
+    "static/media/TS3.svg": "/Womazing_react-ts/static/media/TS3.03fce1df7ebc461bc29986a4ce96a6fb.svg",
+    "static/media/TS2.svg": "/Womazing_react-ts/static/media/TS2.5323517697126b875eb4b53edd077e0c.svg",
+    "static/media/TS1.svg": "/Womazing_react-ts/static/media/TS1.282827cd2af9b7ff7eaac9146e09351f.svg",
+    "index.html": "/Womazing_react-ts/index.html",
+    "static/media/phone.svg": "/Womazing_react-ts/static/media/phone.3d0e1c997f574c228dc6b0ab40d6cfb6.svg",
+    "static/media/shop.svg": "/Womazing_react-ts/static/media/shop.85c21c26ec31f25efcd0990a44665ad9.svg",
+    "static/media/CloseBtn.svg": "/Womazing_react-ts/static/media/CloseBtn.d50f20de2c710cffcd42ad155c4c2152.svg",
+    "static/media/BurgerBtn.svg": "/Womazing_react-ts/static/media/BurgerBtn.99d2467b0bf08993bba2e29f3e271bb3.svg",
+    "static/media/FSArrow.svg": "/Womazing_react-ts/static/media/FSArrow.50d89a499e9683e35f48afcf8ee0ca91.svg",
+    "static/media/FSArry.svg": "/Womazing_react-ts/static/media/FSArry.481ba5894f2c94cdd4419218dbfe3489.svg",
+    "static/media/Arry.svg": "/Womazing_react-ts/static/media/Arry.007389f4d91a7112f59beb54dd6f2bff.svg",
+    "main.f31af8d1.css.map": "/Womazing_react-ts/static/css/main.f31af8d1.css.map",
+    "main.ac6fc204.js.map": "/Womazing_react-ts/static/js/main.ac6fc204.js.map",
+    "787.698e746e.chunk.js.map": "/Womazing_react-ts/static/js/787.698e746e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31af8d1.css",
+    "static/js/main.ac6fc204.js"
+  ]
+}
